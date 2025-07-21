@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="rounded-container"> 
+        <div class="title-header">
+            <h1>Create and Edit Your Notes </h1>
+        </div>
+        <div class="container-info">
+            <h3>Select one of the options below</h3>
+        </div>
+        <div class="section-divider-horiz"></div>
+        <br>
+        <br>
+        <div class="rounded-container">
+            <div id="crudContainer" class="crud-container">
+                <div class="crud-cards" id="crud-c">
+                    <button>Create</button>
+                </div>
+                <div class="crud-cards" id="crud-r">
+                    <button>Read</button>
+                </div>
+                <div class="crud-cards" id="crud-u">
+                    <button>Update</button>
+                </div>
+                <div class="crud-cards" id="crud-d">
+                    <button>Delete</button>
+                </div>
+            </div>
+            <div class="message-output">
+            <br>
+            <p id="message">Enter the id here </p>
+            <br>
+            <label for="input-data">enter your note here</label>
+            <input class="inputData" id="input-data">
+            <textarea id="output">
+            All note records shows here
+            </textarea>
+            </div>
+        </div>
+    </div>
+   <script src="./script.js"></script> 
+</body>
+
+</html>
