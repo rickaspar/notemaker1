@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fbc9e9b1-3d47-4532-8f2f-ae01a1013a7d",
+    "age": "canbe changed in PUT",
+    "height": "can be changed",
+    "name": "ric"
+  },
+  {
+    "id": "71d6669a-7dd3-4021-a940-6174b21616a8",
+    "age": "20",
+    "height": "160"
+  },
+  {
+    "age": "new age",
+    "height": "new height"
+  },
+  {
+    "age": "new age 1",
+    "height": "new height 1"
+  },
+  {
+    "id": "01",
+    "age": "canbe changed in PUT",
+    "height": "can be changed"
+  }
+]
